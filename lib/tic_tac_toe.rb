@@ -146,12 +146,10 @@ end
 
 def play
 
-until over?
+while over? == false 
   turn
 end
 
-
-winner
 
 if won?
   p "Congratulations #{winner}!"
