@@ -156,10 +156,6 @@ if won?
 elsif draw?
   p "Cat's Game!"
 end
-
-
-
-
 end
 
 
