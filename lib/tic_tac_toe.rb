@@ -117,7 +117,7 @@ end
 
 
 def over?
-  if won? or full?
+  if won? or full? or draw? 
     true
   else
     false
