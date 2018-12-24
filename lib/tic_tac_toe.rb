@@ -153,7 +153,7 @@ end
 
 
 if won?
-  p "Congratulations #{winner}"
+  p "Congratulations #{winner}!"
 elsif draw?
   p "Cat's Game!"
 end
