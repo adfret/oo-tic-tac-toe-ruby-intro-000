@@ -151,6 +151,7 @@ until over?
 end
 
 
+winner 
 
 if won?
   p "Congratulations #{winner}!"
