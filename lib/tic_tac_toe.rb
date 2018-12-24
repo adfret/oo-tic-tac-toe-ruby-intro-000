@@ -151,7 +151,7 @@ while over? == false
 end
 
 
-if won?(@board)
+if won?
   p "Congratulations #{winner}!"
 elsif draw?
   p "Cat's Game!"
