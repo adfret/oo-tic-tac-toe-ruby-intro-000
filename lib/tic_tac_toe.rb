@@ -144,23 +144,23 @@ end
 
 
 
-def play 
+def play
 
-until over? == true 
-  turn 
-end 
+until over? == true
+  turn
+end
 
 
-if won? 
+if won?
   p "Congratulations #{winner}"
 elsif draw?
   p "Cat's Game!"
-end 
+end
 
 
 
 
-end 
+end
 
 
 
