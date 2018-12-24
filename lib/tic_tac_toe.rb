@@ -144,6 +144,26 @@ end
 
 
 
+def play 
+
+until over? == true 
+  turn 
+end 
+
+
+if won? 
+  p "Congratulations #{winner}"
+elsif draw?
+  p "Cat's Game!"
+end 
+
+
+
+
+end 
+
+
+
 
 
 end
