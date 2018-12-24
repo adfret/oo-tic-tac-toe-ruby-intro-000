@@ -151,7 +151,7 @@ until over?
 end
 
 
-winner 
+winner
 
 if won?
   p "Congratulations #{winner}!"
@@ -169,4 +169,3 @@ end
 
 
 end
-  
