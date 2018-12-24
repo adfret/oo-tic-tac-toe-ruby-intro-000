@@ -150,9 +150,9 @@ def play
 
 
   if won?
-    p "Congratulations #{winner}!"
+    puts "Congratulations #{winner}!"
   elsif draw?
-    p "Cat's Game!"
+    puts "Cat's Game!"
 end
 
 end
