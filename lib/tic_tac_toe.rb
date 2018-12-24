@@ -146,9 +146,8 @@ end
 
 def play
 
-until over? == true
-  turn
-end
+  turn until over? == true
+
 
 
 if won?
