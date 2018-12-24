@@ -143,5 +143,19 @@ end
 end
 
 
+def play
+  until over?
+    turn
+  end
 
-end 
+
+  if won?
+    p "Congratulations #{winner}!"
+  elsif draw?
+    p "Cat's Game!"
+end
+
+end
+
+
+end
